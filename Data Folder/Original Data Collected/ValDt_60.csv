@@ -1,0 +1,61 @@
+ID,Yield,Composition ,Temp ?,Comment,Type,Title
+1,518,TiZrTa0.7NbMo,800,Arc+Annelaed at 1K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+2,522,Al0.1Ti0.191Zr0.191Ta0.134Nb0.191Mo0.191,800,Arc+Annelaed at 2K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+3,550,Al0.2Ti0.17Zr0.17Ta0.119Nb0.17Mo0.17,800,Arc+Annelaed at 3K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+4,563,Al0.3Ti0.1489Zr0.1489Ta0.1043Nb0.1489Mo0.1489,800,Arc+Annelaed at 4K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+5,571,Al0.4Ti0.1278Zr0.1278Ta0.08936Mo0.1277,800,Arc+Annelaed at 5K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+6,714,Al0.5Ti0.1064Zr0.1064Ta0.0745Nb0.1064Mo0.1064,800,Arc+Annelaed at 6K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+7,342,TiZrTa0.7NbMo,1000,Arc+Annelaed at 7K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+8,350,Al0.1Ti0.191Zr0.191Ta0.134Nb0.191Mo0.191,1000,Arc+Annelaed at 8K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+9,445,Al0.2Ti0.17Zr0.17Ta0.119Nb0.17Mo0.17,1000,Arc+Annelaed at 9K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+10,460,Al0.3Ti0.1489Zr0.1489Ta0.1043Nb0.1489Mo0.1489,1000,Arc+Annelaed at 10K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+11,473,Al0.4Ti0.1278Zr0.1278Ta0.08936Mo0.1277,1000,Arc+Annelaed at 11K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+12,495,Al0.5Ti0.1064Zr0.1064Ta0.0745Nb0.1064Mo0.1064,1000,Arc+Annelaed at 12K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+13,113,TiZrTa0.7NbMo,1200,Arc+Annelaed at 13K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+14,125,Al0.1Ti0.191Zr0.191Ta0.134Nb0.191Mo0.191,1200,Arc+Annelaed at 14K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+15,139,Al0.2Ti0.17Zr0.17Ta0.119Nb0.17Mo0.17,1200,Arc+Annelaed at 15K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+16,141,Al0.3Ti0.1489Zr0.1489Ta0.1043Nb0.1489Mo0.1489,1200,Arc+Annelaed at 16K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+17,147,Al0.4Ti0.1278Zr0.1278Ta0.08936Mo0.1277,1200,Arc+Annelaed at 17K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+18,150,Al0.5Ti0.1064Zr0.1064Ta0.0745Nb0.1064Mo0.1064,1200,Arc+Annelaed at 18K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+19,1349,TiZrTa0.7NbMo,25,Arc+Annelaed at 19K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+20,1598,Al0.1Ti0.191Zr0.191Ta0.134Nb0.191Mo0.191,25,Arc+Annelaed at 20K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+21,1651,Al0.2Ti0.17Zr0.17Ta0.119Nb0.17Mo0.17,25,Arc+Annelaed at 21K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+22,1788,Al0.3Ti0.1489Zr0.1489Ta0.1043Nb0.1489Mo0.1489,25,Arc+Annelaed at 22K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+23,1858,Al0.4Ti0.1278Zr0.1278Ta0.08936Mo0.1277,25,Arc+Annelaed at 23K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+24,1984,Al0.5Ti0.1064Zr0.1064Ta0.0745Nb0.1064Mo0.1064,25,Arc+Annelaed at 24K C,Compress,Microstructure and mechanical properties of Alx (TiZrTa0. 7NbMo) refractory high-entropy alloys
+25,1030,Ti0.42Hf0.21Nb0.21V0.16,25,AM-LENS,Tensile,Origins of strength stabilities at elevated temperatures in additively manufactured refractory high entropy alloy
+26,681,Ti0.42Hf0.21Nb0.21V0.16,400,AM-LENS,Tensile,Origins of strength stabilities at elevated temperatures in additively manufactured refractory high entropy alloy
+27,661,Ti0.42Hf0.21Nb0.21V0.16,500,AM-LENS,Tensile,Origins of strength stabilities at elevated temperatures in additively manufactured refractory high entropy alloy
+28,625,Ti0.42Hf0.21Nb0.21V0.16,600,AM-LENS,Tensile,Origins of strength stabilities at elevated temperatures in additively manufactured refractory high entropy alloy
+29,0,Ti0.42Hf0.21Nb0.21V0.16,800,AM-LENS,Tensile,Origins of strength stabilities at elevated temperatures in additively manufactured refractory high entropy alloy
+30,1399,HfNbTiVSi0.5,25,cold crucible levitation melting in an argon atmosphere,Compressive,Microstructure and mechanical properties of a refractory HfNbTiVSi0.5?high-entropy alloy composite
+31,875,HfNbTiVSi0.5,800,cold crucible levitation melting in an argon atmosphere,Compressive,Microstructure and mechanical properties of a refractory HfNbTiVSi0.6?high-entropy alloy composite
+32,240,HfNbTiVSi0.5,1000,cold crucible levitation melting in an argon atmosphere,Compressive,Microstructure and mechanical properties of a refractory HfNbTiVSi0.7?high-entropy alloy composite
+33,1390,NbMoTaW,25,water-cooled Cu crucible placed in a vacuum chamber back-filled with Ar gas to introduce an inert atmosphere,Compressive,Degradation of the mechanical properties of NbMoTaW refractory high-entropy alloy in tension
+34,694,NbMoTaW,800,water-cooled Cu crucible placed in a vacuum chamber back-filled with Ar gas to introduce an inert atmosphere,Compressive,Degradation of the mechanical properties of NbMoTaW refractory high-entropy alloy in tension
+35,312,NbMoTaW,1200,water-cooled Cu crucible placed in a vacuum chamber back-filled with Ar gas to introduce an inert atmosphere,Compressive,Degradation of the mechanical properties of NbMoTaW refractory high-entropy alloy in tension
+36,1471,Cr24.75Mo24.75Nb24.75V24.75C1,25,DED LENS,Compressive,The microcrack inhibition and mechanical properties of an in-situ synthesized refractory high-entropy alloy fabricated by additive manufacturing
+37,1145,Cr24.75Mo24.75Nb24.75V24.75C1,400,DED LENS,Compressive,The microcrack inhibition and mechanical properties of an in-situ synthesized refractory high-entropy alloy fabricated by additive manufacturing
+38,1050,Cr24.75Mo24.75Nb24.75V24.75C1,600,DED LENS,Compressive,The microcrack inhibition and mechanical properties of an in-situ synthesized refractory high-entropy alloy fabricated by additive manufacturing
+39,923,Cr24.75Mo24.75Nb24.75V24.75C1,800,DED LENS,Compressive,The microcrack inhibition and mechanical properties of an in-situ synthesized refractory high-entropy alloy fabricated by additive manufacturing
+40,787,Cr24.75Mo24.75Nb24.75V24.75C1,1000,DED LENS,Compressive,The microcrack inhibition and mechanical properties of an in-situ synthesized refractory high-entropy alloy fabricated by additive manufacturing
+41,977,Ti37V15Nb22Hf23W3,20,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W3?refractory high-entropy alloys
+42,893,Ti37V15Nb22Hf23W3,100,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W4?refractory high-entropy alloys
+43,759,Ti37V15Nb22Hf23W3,200,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W5?refractory high-entropy alloys
+44,697,Ti37V15Nb22Hf23W3,400,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W6?refractory high-entropy alloys
+45,729,Ti37V15Nb22Hf23W3,600,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W7?refractory high-entropy alloys
+46,648,Ti37V15Nb22Hf23W3,700,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W8?refractory high-entropy alloys
+47,575,Ti37V15Nb22Hf23W3,800,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W9?refractory high-entropy alloys
+48,186,Ti37V15Nb22Hf23W3,950,vacuum arc melting,Tensile,Edge dislocation-induced high-temperature strengthening in the Ti37V15Nb22Hf23W10?refractory high-entropy alloys
+49,1096,AlNbTiVZr,25,laser direct energy deposition,Compressive,AlNbTiVZr refractory high entropy alloy combining exceptional high-temperature performance and excellent ductility fabricated by laser direct energy deposition
+50,854,AlNbTiVZr,600,laser direct energy deposition,Compressive,AlNbTiVZr refractory high entropy alloy combining exceptional high-temperature performance and excellent ductility fabricated by laser direct energy deposition
+51,675,AlNbTiVZr,700,laser direct energy deposition,Compressive,AlNbTiVZr refractory high entropy alloy combining exceptional high-temperature performance and excellent ductility fabricated by laser direct energy deposition
+52,317,AlNbTiVZr,800,laser direct energy deposition,Compressive,AlNbTiVZr refractory high entropy alloy combining exceptional high-temperature performance and excellent ductility fabricated by laser direct energy deposition
+53,1410,MoTaVW,25,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+54,780,MoTaVW,900,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+55,750,MoTaVW,1000,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+56,720,MoTaVW,1100,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+57,575,MoTaVW,1200,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+58,425,MoTaVW,1300,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+59,340,MoTaVW,1400,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
+60,160,MoTaVW,1500,segmented refrigerated ball milling and spark plasma sintering (SPS) Sinter at 1700,Compressive,"Ultrastrong, high plasticity, and softening-resistant refractory high-entropy alloy via stable isostructural coherent interfaces"
