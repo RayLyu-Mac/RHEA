@@ -90,13 +90,13 @@ def elemental_composition(name):
     weights = stoi/(np.sum(stoi))
 
     return composition, ele, stoi
-MainDir=r'C:\Users\Sir\OneDrive\Univeristy\HEA Analysis\4K06\Code\Data Folder\Original Data Collected'
-filePath=MainDir+r'\TrainDt_300_Extended.csv'
+MainDir = os.path.dirname(os.path.realpath(__file__))
+filePath=os.path.join(script_dir, 'Data Folder\Original Data Collected\ValDt_continued.csv')
 df1=pd.read_csv(filePath,index_col="ID")
 res=[]
-comps=df1['Comp'].values
+df1['Composition '].values
 for comp in comps:
     composition, ele, stoi=elemental_composition(comp)
     res.append(composition.reshape(-1))
 res=pd.DataFrame(res,columns=chem_list)
-pd.concat([df1,res],axis=1).to_csv(r'C:\Users\Sir\OneDrive\Univeristy\HEA Analysis\4K06\Code\Data Folder\Processed 0922\AutoCompCal.csv')
+pd.concat([df1,res],axis=1).to_csv(os.path.join(script_dir, 'Data Folder\Original Data Collected\ValDt_continued_added.csv'))

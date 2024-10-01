@@ -16,4 +16,4 @@ git config --global user.email "${INPUT_EMAIL}"
 git config --global --add safe.directory /github/workspace
 
 # Run the Python application
-python3 /app/S1_FeatureCal/autoTest.py
+python3 /app/S1_FeatureCal/autoPrep.py
