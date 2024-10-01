@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y python3.10 \
     git \
     python3-venv \
     build-essential \
-    setuptools \
+    python3-setuptools \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory inside the container
