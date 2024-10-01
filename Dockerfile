@@ -4,7 +4,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     git
 
-RUN apt-install python3-3.10
+RUN apt-install python3.10
 RUN apt-install python3-pip
 
 # Set the working directory inside the container
