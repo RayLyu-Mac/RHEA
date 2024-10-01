@@ -1,9 +1,11 @@
 FROM ubuntu:latest
 
 # Update and install Python, pip, and git
-RUN apt-get update && apt-get install -y python3.10
+RUN apt-get update && apt-get install -y python3.10 \
+    python3-pip \
+    git
 
-RUN apt-install python3-pip
+
 
 # Set the working directory inside the container
 WORKDIR /app
