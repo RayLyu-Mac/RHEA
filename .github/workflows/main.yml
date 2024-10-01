@@ -1,6 +1,16 @@
 #If error happens may be due to sh file on the action generator doesn't have the right permission, fixed by: go to the code space of the generator, open terminal and enter chmod -R 775 entrypoint.sh
 name: Generate Podcast Feed
 on: [push]
+inputs:
+  email:
+    description: commiter's email
+    required: true
+    default: ${{ github.actor }}@localhost
+  name:
+    descriptor: name
+    required: true
+    default: {{ github.actor }}
+    
 jobs: 
   build: 
     runs-on: ubuntu-latest
@@ -8,7 +18,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4.2.0
       - name: Run Feed Generator
-        run: docker build -t newdt .
+        run: |
+            docker build -t newdt .
+            docker run -it newdt
+
       - name: Cleanup Docker container and image
         run: |
             docker rm my-container
