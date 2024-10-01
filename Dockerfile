@@ -13,4 +13,4 @@ WORKDIR /app
 COPY ./S1_FeatureCal /app/S1_FeatureCal
 
 # Use pip3 (linked to Python 3) to install requirements
-RUN python3 -m pip install --no-cache-dir -r /app/S1_FeatureCal/requirements.txt
+RUN pip3 install --no-cache-dir -r /app/S1_FeatureCal/requirements.txt
