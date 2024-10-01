@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 # Update and install Python, pip, git, and other dependencies
 RUN apt-get update && apt-get install -y python3.10 \
-    python3-distutils \
+    apt-get install python-distutils-extra \
     python3-pip \
     git \
     python3-venv \
