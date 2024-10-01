@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 # Update and install Python, pip, git, and other dependencies
-RUN apt-get update && apt-get install -y python3.10 \
+RUN apt-get update && apt-get install -y python3.12 \
     
     python3-pip \
     git \
