@@ -5,5 +5,7 @@ def get_chemicals_list(filename):
     chemicals = pd.read_csv(filename)
     chemicals_list = list(chemicals[' symbol'].str.strip())
     return chemicals_list
-chem_list=get_chemicals_list("chemical_elements.csv")
+script_dir = os.path.dirname(os.path.realpath(__file__))
+chemListDir=csv_file_path = os.path.join(script_dir, 'your_file.csv')
+chem_list=get_chemicals_list(chem_listDir)
 print(chem_list)
