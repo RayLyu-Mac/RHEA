@@ -22,10 +22,6 @@ COPY requirements.txt /app/requirements.txt
 # Verify that the directories and files are properly copied
 RUN ls -al /app/S1_FeatureCal && ls -al /app/requirements.txt
 
-# Create a virtual environment using Python 3.10 and install dependencies
-RUN python3.10 -m venv .venv && \
-    /bin/bash -c "source .venv/bin/activate && python3.10 -m pip install --upgrade pip && python3.10 -m pip install -r /app/requirements.txt"
-
 # Copy entry script and make it executable
 COPY entry.sh /entry.sh
 RUN chmod +x /entry.sh
