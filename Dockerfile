@@ -13,7 +13,7 @@ WORKDIR /app
 COPY ./S1_FeatureCal /app/S1_FeatureCal
 
 # Copy the requirements.txt file from the host to the container
-COPY ./requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
 # Verify that the directories and files are properly copied
 RUN ls -al /app/S1_FeatureCal && ls -al /app/requirements.txt
