@@ -2,10 +2,10 @@ FROM ubuntu:latest
 
 # Update and install Python, pip, git, and other dependencies
 RUN apt-get update && apt-get install -y python3.10 \
+    python3-distutils \
     python3-pip \
     git \
     python3-venv \
-    python3-distutils \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
