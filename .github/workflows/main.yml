@@ -8,7 +8,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4.2.0
       - name: Run Feed Generator
-        run: docker build -t NewDt .
+        run: docker build -t newdt .
       - name: Cleanup Docker container and image
         run: |
             docker rm my-container
