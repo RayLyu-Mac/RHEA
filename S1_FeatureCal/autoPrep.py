@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import pandas as pd
+import os
 def get_chemicals_list(filename):
     chemicals = pd.read_csv(filename)
     chemicals_list = list(chemicals[' symbol'].str.strip())
@@ -92,7 +93,7 @@ def elemental_composition(name):
     weights = stoi/(np.sum(stoi))
 
     return composition, ele, stoi
-filePath=os.path.join(script_dir, 'Data Folder\Original Data Collected\ValDt_continued.csv')
+filePath=os.path.join(script_dir, '/Data Folder/Original Data Collected/ValDt_Continued.csv')
 df1=pd.read_csv(filePath,index_col="ID")
 res=[]
 df1['Composition '].values
@@ -100,4 +101,4 @@ for comp in comps:
     composition, ele, stoi=elemental_composition(comp)
     res.append(composition.reshape(-1))
 res=pd.DataFrame(res,columns=chem_list)
-pd.concat([df1,res],axis=1).to_csv(os.path.join(script_dir, 'Data Folder\Original Data Collected\ValDt_continued_added.csv'))
+pd.concat([df1,res],axis=1).to_csv(os.path.join(script_dir, '/Data Folder/Original Data Collected/ValDt_Continued_added.csv'))
