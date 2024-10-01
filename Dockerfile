@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y python3.12 \
     git \
     python3-venv \
     build-essential \
-    python3-setuptools \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory inside the container
