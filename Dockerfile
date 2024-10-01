@@ -23,4 +23,5 @@ RUN python3 -m venv .venv && \
     /bin/bash -c "source .venv/bin/activate && python3 -m pip install --upgrade pip && python3 -m pip install -r /app/requirements.txt"
 
 # Optionally, set the default command to activate the virtual environment and run your application
-CMD ["/bin/bash", "-c", "source .venv/bin/activate && exec bash"]
+COPY entry.sh /entry.sh
+ENTRYPOINT [ "/entry.sh" ]
