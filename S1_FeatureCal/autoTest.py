@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import pandas as pd
+import os
 def get_chemicals_list(filename):
     chemicals = pd.read_csv(filename)
     chemicals_list = list(chemicals[' symbol'].str.strip())
