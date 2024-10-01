@@ -21,4 +21,4 @@ RUN ls -al /app/S1_FeatureCal
 RUN python3 -m venv .venv
 
 # Use pip3 to install the requirements inside the virtual environment
-RUN /bin/bash -c "source .venv/bin/activate && python3 -m pip install -r /app/S1_FeatureCal/req
+RUN /bin/bash -c "source .venv/bin/activate && python3 -m pip install -r /app/S1_FeatureCal/requirements.txt"
