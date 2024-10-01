@@ -6,6 +6,6 @@ RUN apt-get update && apt-get install -y \
     git 
 
 WORKDIR /app
-COPY ./S1_featureCal /app/S1_featureCal
+COPY ./S1_FeatureCal /app/S1_FeatureCal
 RUN pip install -r requirements.txt
     
