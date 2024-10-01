@@ -8,5 +8,5 @@ def get_chemicals_list(filename):
     return chemicals_list
 script_dir = os.path.dirname(os.path.realpath(__file__))
 chemListDir=csv_file_path = os.path.join(script_dir, 'your_file.csv')
-chem_list=get_chemicals_list(chem_listDir)
+chem_list=get_chemicals_list(chemListDir)
 print(chem_list)
