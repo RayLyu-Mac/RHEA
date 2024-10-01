@@ -7,5 +7,5 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY ./S1_FeatureCal /app/S1_FeatureCal
-RUN pip install -r /app/S1_FeatureCal/requirements.txt
+RUN pip install --no-cache-dir -r /app/S1_FeatureCal/requirements.txt
     
