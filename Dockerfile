@@ -24,4 +24,6 @@ RUN python3 -m venv .venv && \
 
 # Optionally, set the default command to activate the virtual environment and run your application
 COPY entry.sh /entry.sh
+
+RUN chmod -R 775 /entry.sh
 ENTRYPOINT [ "/entry.sh" ]
