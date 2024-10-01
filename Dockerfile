@@ -2,11 +2,12 @@ FROM ubuntu:latest
 
 # Update and install Python, pip, git, and other dependencies
 RUN apt-get update && apt-get install -y python3.10 \
-    apt-get install python3-distutils \
+    
     python3-pip \
     git \
     python3-venv \
     build-essential \
+    setuptools \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory inside the container
