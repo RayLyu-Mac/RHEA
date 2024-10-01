@@ -94,7 +94,7 @@ def elemental_composition(name):
 
     return composition, ele, stoi
 
-df1=pd.read_csv('/workspaces/RHEA/Data Folder/Original Data Collected/ValDt_Continued.csv',index_col="ID")
+df1=pd.read_csv('/workspaces/RHEA/Data Folder/Original Data Collected/ValDt_60.csv',index_col="ID")
 res=[]
 comps=df1['Composition '].values
 for comp in comps:
