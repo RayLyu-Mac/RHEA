@@ -1,11 +1,10 @@
-# Use Ubuntu as the base image
-FROM ubuntu:latest
+# Use Ubuntu 22.04 (Jammy) as the base image
+FROM ubuntu:22.04
 
-# Update the package list and install Python 3.12, pip, and necessary dependencies
+# Update the package list and install Python 3.10 and necessary dependencies
 RUN apt-get update && apt-get install -y \
-    python3.12 \
-    python3.12-venv \
-    python3.12-distutils \
+    python3.10 \
+    python3.10-venv \
     python3-pip \
     git \
     build-essential \
@@ -23,9 +22,9 @@ COPY requirements.txt /app/requirements.txt
 # Verify that the directories and files are properly copied
 RUN ls -al /app/S1_FeatureCal && ls -al /app/requirements.txt
 
-# Create a virtual environment using Python 3.12 and install dependencies
-RUN python3.12 -m venv .venv && \
-    /bin/bash -c "source .venv/bin/activate && python3.12 -m pip install --upgrade pip && python3.12 -m pip install -r /app/requirements.txt"
+# Create a virtual environment using Python 3.10 and install dependencies
+RUN python3.10 -m venv .venv && \
+    /bin/bash -c "source .venv/bin/activate && python3.10 -m pip install --upgrade pip && python3.10 -m pip install -r /app/requirements.txt"
 
 # Copy entry script and make it executable
 COPY entry.sh /entry.sh
