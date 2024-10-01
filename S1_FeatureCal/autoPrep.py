@@ -5,7 +5,9 @@ def get_chemicals_list(filename):
     chemicals = pd.read_csv(filename)
     chemicals_list = list(chemicals[' symbol'].str.strip())
     return chemicals_list
-chem_list=get_chemicals_list("chemical_elements.csv")
+script_dir = os.path.dirname(os.path.realpath(__file__))
+chemListDir=csv_file_path = os.path.join(script_dir, 'chemical_elements.csv')
+chem_list=get_chemicals_list(chemListDir)
 def parse_chemical_name(name,chem_list):
     temp = ''
     stoi = []
@@ -90,7 +92,6 @@ def elemental_composition(name):
     weights = stoi/(np.sum(stoi))
 
     return composition, ele, stoi
-MainDir = os.path.dirname(os.path.realpath(__file__))
 filePath=os.path.join(script_dir, 'Data Folder\Original Data Collected\ValDt_continued.csv')
 df1=pd.read_csv(filePath,index_col="ID")
 res=[]
